@@ -66,6 +66,19 @@
       .packages { grid-template-columns: 1fr; }
       .interior { margin: 20px; }
     }
+  
+.package-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.packages .card {
+  padding: 0;
+  overflow: hidden;
+}
+
   </style>
 </head>
 <body>
@@ -83,6 +96,33 @@
   </section>
 
   <section class="packages">
+    
+<section class="packages">
+  <div class="card">
+    <img
+      src="peak_express_original_crop.png"
+      alt="Express Wash - $25"
+      class="package-image"
+    >
+  </div>
+
+  <div class="card">
+    <img
+      src="peak_premium_original_crop.png"
+      alt="Premium Wash - $40"
+      class="package-image"
+    >
+  </div>
+
+  <div class="card">
+    <img
+      src="peak_deluxe_original_crop.png"
+      alt="Deluxe Wash - $55"
+      class="package-image"
+    >
+  </div>
+</section>
+
     <div class="card">
       <h2>Express Wash</h2>
       <div class="price">$25</div>
