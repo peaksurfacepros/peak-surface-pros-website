@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wash Packages | Peak Surface Pros</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #F5F7F9;
+      color: #191B1D;
+    }
+    header {
+      background: #191B1D;
+      color: white;
+      text-align: center;
+      padding: 45px 20px;
+    }
+    nav { margin-top: 20px; }
+    nav a {
+      color: white;
+      margin: 0 12px;
+      text-decoration: none;
+    }
+    h1 { margin: 0 0 10px; }
+    .blue { color: #00A3E0; }
+    .intro {
+      text-align: center;
+      padding: 40px 20px 20px;
+    }
+    .packages {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      max-width: 1100px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 28px;
+      box-shadow: 0 3px 15px #00000015;
+    }
+    .card h2 { margin-bottom: 5px; }
+    .price {
+      color: #087CC5;
+      font-size: 36px;
+      font-weight: bold;
+    }
+    li { margin: 12px 0; }
+    .interior {
+      max-width: 850px;
+      margin: 40px auto;
+      padding: 30px;
+      background: #E7F4FC;
+      border-radius: 12px;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+    }
+    @media (max-width: 750px) {
+      .packages { grid-template-columns: 1fr; }
+      .interior { margin: 20px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>PEAK <span class="blue">SURFACE PROS</span></h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="packages.html">Wash Packages</a>
+    </nav>
+  </header>
+
+  <section class="intro">
+    <h1>Wash Packages</h1>
+    <p>Get your car cleaned while you shop, work, or work out!</p>
+  </section>
+
+  <section class="packages">
+    <div class="card">
+      <h2>Express Wash</h2>
+      <div class="price">$25</div>
+      <p>Quick & Clean</p>
+      <ul>
+        <li>Exterior hand wash</li>
+        <li>Wheel face cleaning</li>
+        <li>Exterior window cleaning</li>
+        <li>Hand dry</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Premium Wash</h2>
+      <div class="price">$40</div>
+      <p>Extra Shine</p>
+      <ul>
+        <li>Everything in Express</li>
+        <li>Tire dressing</li>
+        <li>Spray wax protection</li>
+        <li>Extra exterior detailing</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Deluxe Wash</h2>
+      <div class="price">$55</div>
+      <p>Complete Exterior</p>
+      <ul>
+        <li>Everything in Premium</li>
+        <li>Detailed wheel cleaning</li>
+        <li>Door jamb wipe-down</li>
+        <li>Enhanced exterior finish</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="interior">
+    <h2>Basic Interior Refresh — Add $20</h2>
+    <p>Available with any exterior wash package.</p>
+    <ul>
+      <li>Light vacuuming of accessible seats and floors</li>
+      <li>Dashboard and console wipe-down</li>
+      <li>Interior window cleaning</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Questions? Email
+      <a href="mailto:peaksurfacepros@gmail.com">
+        peaksurfacepros@gmail.com
+      </a>
+    </p>
+  </footer>
+</body>
+</html>
